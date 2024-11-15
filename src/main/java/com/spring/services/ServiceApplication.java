@@ -1,7 +1,7 @@
-package com.spring.service;
+package com.spring.services;
 
-import com.spring.service.model.Book;
-import com.spring.service.model.User;
+import com.spring.services.model.Book;
+import com.spring.services.model.User;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -23,21 +23,21 @@ public class ServiceApplication {
         SpringApplication.run(ServiceApplication.class, args);
     }
 
-    @Bean
+    /*@Bean
     public ApplicationRunner applicationRunner() {
         return args -> {
 
             Book book = new Book();
-            book.setId("Scotch Trial");
-            book.setData("test3");
-            book.setTime("2000-01-03");
+            book.setId("Testing...");
+            book.setData("test4");
+            book.setTime("2024-11-13");
             mongoTemplate.insert(book);
 
             User user = new User();
-            user.setId("Park");
-            user.setUsername("John");
-            user.setPassword(1357);
+            user.setId("Indeed");
+            user.setUsername("LOL");
+            user.setPassword(7779);
             mongoTemplate.insert(user);
         };
-    }
+    }*/
 }
